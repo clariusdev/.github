@@ -49,6 +49,7 @@ App restrictions:
 * Apps must be able to process images in real-time for immediate feedback - suggest making use of [TF Lite](https://www.tensorflow.org/lite)
 * For Apple devices, only iPads can be used, which offer the split screen functionality, since Apple does not provide a proper IPC technology on iOS, and iPhones do not allow Apps to run anything significant while in the backgroud
 * Since most connections to the Clarius scanner use the probe's Wi-Fi, there is no guarantee internet is required, therefore, for real-time usage, internet access must **not** be required
+* Partner Apps must be updated in a timely fashion when Clarius releases a new App to the stores in order to maintain communications compatibility - Clarius will provide pre-release libraries and ample time to partners
 
 Cast, via Marketplace, is available for deployment on the following platforms:
 * iOS
