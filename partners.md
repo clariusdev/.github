@@ -59,7 +59,10 @@ Cast, via Marketplace, is available for deployment on the following platforms:
 Cloud Integrations
 ==================
 
-For partners requiring cloud-based AI or workflow solutions, that do not typically require real-time imaging or analysis, Clarius is also building a framework within our Cloud to be able to push completed exams into another platform. Stay tuned for more information.
+For partners requiring cloud-based AI or workflow solutions, that do not typically require real-time imaging or analysis, Clarius has built a [framework](https://github.com/clariusdev/cloud) within our Cloud to be able to push completed exams into another platform. Services taking advantage of this technology could make use of:
+* Clinical review services
+* Cloud based AI and reporting
+* EMR integrations
 
 Choosing a Deployment Pathway
 =============================
