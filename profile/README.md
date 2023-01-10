@@ -5,7 +5,7 @@ Welcome to the Clarius SDK home; here you'll find various repositories for both 
 What's New
 ==========
 
-Version 10.0 is now released (App available via [pilot](https://support.clarius.com/hc/en-us/articles/360019548852-Joining-the-Pilot-Program)) and API code and binaries are now available.
+Version 10.1.2 is now released with updated APIs and binaries available.
 
 For Researchers
 * The [Cast API](https://github.com/clariusdev/cast) has seen minor changes, with some improvements to performance and binary size
