@@ -77,26 +77,29 @@ Choosing a Deployment Pathway
 
 Architecture
 ============
-                              +-------------------------------+
-                              | Clarius SDK                   |
-                              |  +-------------------+        |         +---------------+ 
-     +-----------+            |  | Cast API          |        |         | Research      |
-     |           |<-----+-----|->| Win/Linux/macOS   |<-------|-------->| Tools         |
-     |           |      |     |  +-------------------+        |         +---------------+
-     |  Clarius  |      |     |                               |
-     |    App    |      |     |  +-------------------+        |         +---------------+
-     |           |      |     |  | Cast Wrappers     |        |         | Marketplace   |
-     |           |      +-----|->| iOS/Android       |<-------|-------->| Apps          |         
-     +-----------+            |  +-------------------+        |         +---------------+
-           |                  |                               |                         
-           |                  |  +-------------------+        |         +---------------+
-         +---+                |  | Solum API         |        |         | OEM Medical   |
-         +   +<---------------|->| Win/Linux/macOS   |<-------|-------->| Devices       |
-         +   +                |  +-------------------+        |         +---------------+
-     +---+   +----+           |                               |
-     |   Probe    |           |  +-------------------+        |         +---------------+
-     +------------+<----------|->| Solum Wrappers    |        |         | OEM Medical   |
-                              |  | iOS/Android       |<-------|-------->| Apps          |
-                              |  +-------------------+        |         +---------------+
-                              +-------------------------------+
+                              
+```mermaid
+  flowchart LR  
+  app[[App]]
+  prb[\Probe/]
+  style prb stroke-width:4px
+  
+  subgraph sdk[Clarius SDK]
+    cast_api[Cast API<br />Win+Linux+macOS]
+    cast_mobile[Cast Wrappers<br />iOS+Android]
+    solum_api[Solum API<br />Win+Linux+macOS]
+    solum_mobile[Solum Wrappers<br />iOS+Android]
+  end
+    
+  app-->cast_api
+  app-->cast_mobile
+  prb-->solum_api
+  prb-->solum_mobile
+  
+  cast_api-->research[Research Tools]
+  cast_mobile-->marketplace[Marketplace Apps]
+  solum_api-->dev[OEM Medical Devices]
+  solum_mobile-->apps[OEM Medical Apps]
+```
+                              
      
