@@ -5,13 +5,11 @@ Welcome to the Clarius SDK home; here you'll find various repositories for both 
 What's New
 ==========
 
-Version 10.1.2 is now released with updated APIs and binaries available.
-
-For Researchers
-* The [Cast API](https://github.com/clariusdev/cast) has seen minor changes, with some improvements to performance and binary size
+Version 10.2.2 is now released with updated APIs and binaries available.
 
 For OEM Partners
-* The new [Solum API](https://github.com/clariusdev/solum) has been released with platform support for iOS and Android
+* [Solum API](https://github.com/clariusdev/solum) has some additional controls and functions for wireless connectivity
 
 For Marketplace Partners
-* The [Cast API](https://github.com/clariusdev/cast) has been released with platform support for iOS and Android
+* [Cast API](https://github.com/clariusdev/cast) now supports routing of AI generated outputs back to the Clarius App
+* Cast API no longer requires probe firmware compatibility with the Clarius App
