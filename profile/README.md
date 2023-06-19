@@ -12,4 +12,3 @@ For OEM Partners
 * [Solum API](https://github.com/clariusdev/solum) Added iOS and Android wrappers for `optimizeWifi()` and `resetProbe()`
 * [Solum API](https://github.com/clariusdev/solum) Improved hardware versioning by adding the ability to specify the firmware platform
 * [Solum API](https://github.com/clariusdev/solum) Additional reporting of errors such as imaging, connectivity and boot-up failures
-* [Solum API](https://github.com/clariusdev/solum) and [Cast API](https://github.com/clariusdev/cast) Dropping support for iOS 11 and iOS 12
