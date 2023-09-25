@@ -5,10 +5,13 @@ Welcome to the Clarius SDK home; here you'll find various repositories for both 
 What's New
 ==========
 
-Version 10.4.0 is now released with updated APIs and binaries available.
+Version 11.0.0 is now released with updated APIs and binaries available.
 
-For OEM Partners
-* [Solum API](https://github.com/clariusdev/solum) Decreased Solum library size
-* [Solum API](https://github.com/clariusdev/solum) Added iOS and Android wrappers for `optimizeWifi()` and `resetProbe()`
-* [Solum API](https://github.com/clariusdev/solum) Improved hardware versioning by adding the ability to specify the firmware platform
-* [Solum API](https://github.com/clariusdev/solum) Additional reporting of errors such as imaging, connectivity and boot-up failures
+## For OEM Partners:
+* [Solum API](https://github.com/clariusdev/solum) Additional imaging controls
+* [Solum API](https://github.com/clariusdev/solum) 8-bit grayscale scan-converted outputs now supported
+* [Solum API](https://github.com/clariusdev/solum) Improved example program
+* [Solum API](https://github.com/clariusdev/solum) Log output ability via Android Framework
+
+## Changes:
+* Firmware removed from binaries, must now be downloaded with token
