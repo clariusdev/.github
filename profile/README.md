@@ -9,4 +9,4 @@ Version 11.1.0 is now released with updated APIs and binaries available.
 
 ## For OEM Partners:
 * [Solum API](https://github.com/clariusdev/solum) Updated Android examples
-* [Solum API](https://github.com/clariusdev/solum) Header files included included with binaries
+* [Solum API](https://github.com/clariusdev/solum) Header files included with binaries
