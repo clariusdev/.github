@@ -18,6 +18,9 @@ signal processing, AI research, and more.
 > **Texo** — script-driven research imaging for low-level control of the transmit/receive
 > sequence — is coming soon.
 
+> **Android App APK** — direct-download / sideload builds of the Clarius App are available
+> at [**clariusdev/app**](https://github.com/clariusdev/app).
+
 ## Which one do I need?
 
 - **Build a standalone product that controls the probe directly** → **Solum** (requires an
