@@ -3,21 +3,19 @@ Partners
 
 Clarius is excited to be working with multiple partners that are bringing new technologies into the healthcare space that require ultrasound imaging for real-time guidance and other novel clinical solutions.
 
-Working with Clarius scanners is extremely simple, and leveraging our suite of APIs through our **Clarius SDK** program allows partners to build elegant solutions that work directly with Clarius' existing ecosystem, or to build an entirely standalone solution.
+Working with Clarius scanners is extremely simple, and leveraging our suite of APIs through our **Clarius SDK** program allows partners to build elegant solutions that work directly with Clarius' existing ecosystem, or to build an entirely standalone solution. See the [Clarius SDK home](https://github.com/clariusdev/.github/blob/main/profile/README.md) for all available repositories.
 
 OEM Partnerships
 ================
 
-Those wishing to develop completely standalone solutions can work with Clarius and enter into an OEM partnership that will allow a 3rd party to purchase and deploy Clarius scanners on their own technology platform to their own customers. Some eligibility requirements for becoming an OEM partner include:
-* Minimum yearly purchase of scanners
-* Paying a nominal yearly fee per scanner (the oem license)
-* Paying a yearly support fee for training, support, and any custom development required
+Those wishing to develop completely standalone solutions can work with Clarius and enter into an OEM partnership that will allow a 3rd party to purchase and deploy Clarius scanners on their own technology platform to their own customers. Enabling the OEM program for your customers requires a general partnership agreement with Clarius; [contact us](https://clarius.com/) to discuss the details for your solution.
 
 From the technology standpoint, partners can develop and deploy in any means they wish, however we have built the dedicated [Solum API](https://github.com/clariusdev/solum) for creating standalone software and Apps. Developers are encouraged to build a full ecosystems for their customers with potential to use cloud, implement custom analysis and reporting, and build in proper security measures.
 
 Solum is available for deployment on the following platforms:
  * Windows
  * Linux
+ * macOS
  * iOS
  * Android
 
