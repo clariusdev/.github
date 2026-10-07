@@ -1,6 +1,6 @@
-# Clarius SDK
+# Clarius Developer Portal
 
-Welcome to the Clarius SDK — the home for the APIs, tools, and references used by
+Welcome to the Clarius Developer Portal — the home for the APIs, tools, and references used by
 [partners](https://github.com/clariusdev/.github/blob/main/partners.md) and researchers
 building on Clarius wireless ultrasound: commercial OEM solutions, real-time streaming,
 signal processing, AI research, and more.
