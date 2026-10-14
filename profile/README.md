@@ -11,12 +11,11 @@ signal processing, AI research, and more.
 | ---------- | ------------- |
 | **[Solum](https://github.com/clariusdev/solum)** | OEM API for building standalone applications that connect **directly** to a Clarius scanner — no Clarius App required. Connectivity and imaging control on Windows, Linux, macOS, iOS, and Android. For commercial partners. |
 | **[Cast](https://github.com/clariusdev/cast)** | Stream images and data in **real time** from a probe while the Clarius App is running. The simplest way to get live images and raw data for research. |
+| **[Texo](https://github.com/clariusdev/texo)** | Script-driven research imaging for **HD3** scanners: edit the transmit/receive sequence, parameters, processing, and probe definition, program the probe, and capture images, prescan, RF, or per-channel data. For researchers with research access. |
 | **[Research](https://github.com/clariusdev/research)** | Raw data formats (RF / IQ / envelope) and readers, the in-app research tools, how imaging parameters are automated, and the low-level parameter reference. |
 | **[IMU](https://github.com/clariusdev/imu)** | The integrated 9-DOF inertial measurement unit: data access, calibration, and orientation quaternions. |
 | **[Cloud](https://github.com/clariusdev/cloud)** | Framework for pushing completed exams from Clarius Cloud into other platforms — clinical review, cloud AI and reporting, and EMR integrations. |
-
-> **Texo** — script-driven research imaging for low-level control of the transmit/receive
-> sequence — is coming soon.
+| **[CAD](https://github.com/clariusdev/cad)** | Exterior CAD models of the probes, for designing holders, fixtures, and accessories. |
 
 > **Android App APK** — direct-download / sideload builds of the Clarius App are available
 > at [**clariusdev/app**](https://github.com/clariusdev/app).
@@ -26,16 +25,19 @@ signal processing, AI research, and more.
 - **Build a standalone product that controls the probe directly** → **Solum** (requires an
   OEM partnership).
 - **Get real-time images or data alongside the Clarius App** → **Cast**.
+- **Control the transmit/receive sequence yourself, or capture per-channel data** →
+  **Texo** (HD3, research access).
 - **Analyze raw RF/IQ/envelope data or use the in-app research features** → **Research**
   (plus **IMU** for motion/orientation).
 - **Integrate completed exams with your cloud, EMR, or AI service** → **Cloud**.
+- **Design a holder or fixture around the probe** → **CAD**.
 
 ## Releases
 
 The APIs are matched to the Clarius App: new binaries and source are published alongside
 each App release, and there is no forward/backward compatibility across versions. Always
-use the build that matches your App — see each repository's **Releases** page for the
-latest.
+use the build that matches your App, and with Texo, the example scripts tagged with the
+same release. See each repository's **Releases** page for the latest.
 
 ## Partners
 
